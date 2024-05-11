@@ -1,0 +1,8 @@
+// 
+public class ArrayTools {
+    // Elements are obtained from a given array by a given corner marker.
+    public static int getElement(int[] arr, int index) {
+        int element = arr[index];
+        return element;
+    }
+}
