@@ -1,0 +1,20 @@
+		{
+			int select = _getch();
+
+			if (select == 13)
+			{
+				for (int i = 5; i < 15; i++)
+				{
+					SetPos(1, i);
+					cout << "                            " << endl;
+				}
+				break;
+			}
+			else if (select == 48)
+			{
+				system("cls");
+				showMenu();
+			}
+		}
+
+	}
