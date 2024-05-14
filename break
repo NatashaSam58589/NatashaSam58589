@@ -1,0 +1,15 @@
+{
+	if (!_kbhit())
+		return;
+
+	int key = _getch();
+
+	switch (key)
+	{
+	case 72:
+		Turn(_id);
+		break;
+	case 80:
+		if (move(DOWN, _id))
+		{
+			sharpDraw(-_id);
