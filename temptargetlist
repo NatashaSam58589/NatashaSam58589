@@ -1,0 +1,12 @@
+         else if(tempsub == 1 && temptargetlist->next->y > y + 1)
+         {
+             return 1;
+         }
+         else if (tempsub == 2 && temptargetlist->next->y > y + 1)
+         {
+             return 1;
+         }
+         temptargetlist = temptargetlist->next;
+     }
+     return 0;
+ }
